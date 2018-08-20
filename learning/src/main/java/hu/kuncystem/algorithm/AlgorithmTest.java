@@ -31,5 +31,9 @@ public class AlgorithmTest {
         int[] array = {1,34,10,45,21,78,45,10,2,3,0,12,9,8,543,221,3,23,67,43};
         BinarySearch search = new BinarySearch();
         search.test(array, 78);
+        
+        int[] unsorted = {6,5,1,3,8,4,7,9,2};
+        Quicksort sort = new Quicksort();
+        sort.test(unsorted);
     }
 }
