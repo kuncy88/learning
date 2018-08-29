@@ -32,8 +32,9 @@ public class AlgorithmTest {
         BinarySearch search = new BinarySearch();
         search.test(array, 78);
         
-        int[] unsorted = {6,5,1,3,8,4,7,9,2};
-        Quicksort sort = new Quicksort();
-        sort.test(unsorted);
+        int[] unsorted = {5,1,4,8,2,9};
+        BubbleSort sort = new BubbleSort(unsorted);
+        sort.test();
+        System.out.println(sort);
     }
 }
